@@ -19,7 +19,7 @@ app.get("/",(req,res)=>{
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
-app.post('/single', upload.single('image'), function (req, res, next) {
+app.post('/profile', upload.single('avater'), function (req, res, next) {
     console.log(req.file);
     res.send("File Uploaded")
   })
