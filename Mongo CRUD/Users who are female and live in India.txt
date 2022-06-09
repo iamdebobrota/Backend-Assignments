@@ -1,0 +1,1 @@
+assignments> db.userdata.find({gender:'Female'},{native:'India'})
