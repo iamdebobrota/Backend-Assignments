@@ -9,17 +9,14 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.get("/", (req,res)=>{
-    res.send(`<h1>Welcome to HomePage </h1>`)
+    res.send(`<h1>Welcome to HomePage. this is Mongoose Assignments </h1>`)
 })
 
 
 app.get("/movies", async (req,res)=>{
     const params= req.query;
     const movies= await Movie.find(params);
-
     return res.json(movies);
-
-  
 })
 
 app.post("/movies", (req, res)=>{
