@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon index.js"
+=======
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+>>>>>>> 0549817a21185178f9eb8bd901a4466bd2693569
   },
   "keywords": [],
   "author": "",

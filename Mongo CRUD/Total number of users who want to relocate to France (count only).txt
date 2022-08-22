@@ -1,0 +1,3 @@
+assignments> db.userdata.find({relocate_to:'France'}).count()
+10
+assignments>
